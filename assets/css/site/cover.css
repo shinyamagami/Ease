@@ -38,7 +38,7 @@
 
 @media (max-width: 767px) {
     .site-cover {
-        min-height: 200px;
+        min-height: 100px;
     }
 
     .cover-description {
