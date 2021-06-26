@@ -1,11 +1,11 @@
 .site-cover {
     z-index: unset !important;
     display: flex;
-    min-height: 500px;
+    min-height: 80px;
 }
 
 .site-cover .search {
-    margin: 30px auto 0;
+    margin: 5px auto 0;
     width: 400px;
 }
 
@@ -17,7 +17,7 @@
     position: relative;
     z-index: 20;
     margin: auto;
-    padding: 30px;
+    padding: 5px;
     color: var(--white-color);
     text-align: center;
 }
@@ -38,7 +38,7 @@
 
 @media (max-width: 767px) {
     .site-cover {
-        min-height: 400px;
+        min-height: 200px;
     }
 
     .cover-description {
